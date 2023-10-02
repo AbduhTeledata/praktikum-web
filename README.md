@@ -33,4 +33,6 @@ Rubah objek `library` menjadi bentuk JSON
 
 # QUIZ
 
+https://forms.gle/uxMLUyfUYFk1a3Ve8
+
 

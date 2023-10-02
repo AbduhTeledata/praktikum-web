@@ -136,6 +136,8 @@ Instead of defining a separate logKey() function, you can pass an anonymous func
 >  `console.log(`You pressed "${event.key}".`);` <br>
 >`});`
 
+> `function(parameter){}`
+
 ## Arrow function
 
 There’s another very simple and concise syntax for creating functions, that’s often better than Function Expressions.
