@@ -19,6 +19,8 @@
     <li>An object can be created with figure brackets {…} with an optional list of properties
     </li>
     <li>A property is a “key: value” pair, where key is a string (also called a “property name”), and value can be anything.</li>
+    <li>JavaScript is a prototype-based language, meaning object properties and methods can be shared through generalized objects that have the ability to be cloned and extended.</li>
+    <li>Every object in JavaScript has an internal property called [[Prototype]]</li>
 </ul>
 
 
@@ -33,10 +35,15 @@
 >   `this.marker = marker` <br>
 > `}`
 
+
 and which you use by calling the function with the keyword `new`.
 
 > `const player = new Player('steve', 'X')` <br>
-> `console.log(player.name)`
+> `console.log(player.name)` <br>
+
+Gentle Explanation of "this" in JavaScript `https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/` <br>
+
+`https://www.w3schools.com/js/js_function_call.asp`
 
 ### How add data to object
 
@@ -78,4 +85,11 @@ and which you use by calling the function with the keyword `new`.
 > `var eagle = new Bird();`<br>
 > `console.log('eagle.fly: ' + eagle.fly);`<br>
 > `console.log('eagle.color: ' + eagle.color);`<br>
+
+<ul>
+    <li>Prototype properties and methods are not automatically linked when you use call() to chain constructors.</li>
+    <li>use Object.setPropertyOf() to link the properties</li>
+    <li>Example Code `object-prototype-3`</li>
+</ul>
+
 

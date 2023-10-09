@@ -136,7 +136,7 @@ Instead of defining a separate logKey() function, you can pass an anonymous func
 >  `console.log(`You pressed "${event.key}".`);` <br>
 >`});`
 
-> `function(parameter){}`
+> `function(parameter){};`
 
 ## Arrow function
 
