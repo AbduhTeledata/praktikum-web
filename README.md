@@ -35,4 +35,8 @@ Rubah objek `library` menjadi bentuk JSON
 
 https://forms.gle/uxMLUyfUYFk1a3Ve8
 
+# Tugas-04
+
+Update kode program 02-dom-properties agar dapat ditambahkan item dan item dapat dihapus
+
 
