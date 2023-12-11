@@ -16,4 +16,4 @@
 
 
 ### Tugas
-Buat Category dan Relasinya dengan Tabel Product
+Buat Tabel Category dan Relasinya 1-to-many dengan Tabel Product
