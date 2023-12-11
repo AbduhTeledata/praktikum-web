@@ -17,3 +17,4 @@
 
 ### Tugas
 Buat Tabel Category dan Relasinya 1-to-many dengan Tabel Product
+Test dengan rest client
