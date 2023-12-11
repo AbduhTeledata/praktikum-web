@@ -5,12 +5,15 @@
 5. npm i -D prisma 
 6. npm i @prisma/client
 7. npx prisma init
-8. npx prisma migrate dev
-9. tambahkan "type": "module" pada file package.json untuk es6 sintax
-8. buat file index.js pada folder backend-lab
-9. install nodemon
-10. jalankan express js: node index.js / nodemon index
-11. npx prisma migrate reset
+8. Jalankan Xampp atau mysql server >8.0.16
+9. npx prisma migrate dev
+10. tambahkan "type": "module" pada file package.json untuk es6 sintax
+11. buat file index.js pada folder backend-lab
+12. install nodemon
+13. jalankan express js: node index.js / nodemon index
+14. npx prisma migrate reset
+
+
 
 ### Tugas
 Buat Category dan Relasinya dengan Tabel Product
