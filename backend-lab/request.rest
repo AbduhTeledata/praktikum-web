@@ -7,6 +7,14 @@ Content-Type: application/json
 }
 
 ###
+POST http://localhost:5000/categories
+Content-Type: application/json
+
+{
+    "name": "Minuman"
+}
+
+###
 GET http://localhost:5000/categories
 
 ###
@@ -14,8 +22,29 @@ POST http://localhost:5000/products
 Content-Type: application/json
 
 {
-    "name": "Product 01",
-    "price": 20000
+    "name": "Coklat",
+    "price": 20000,
+    "categoryId": 1
+}
+
+###
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "name": "Keju",
+    "price": 25000,
+    "categoryId": 1
+}
+
+###
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "name": "Teh Kotak",
+    "price": 6000,
+    "categoryId": 2
 }
 
 ###
@@ -25,7 +54,30 @@ GET http://localhost:5000/products
 GET http://localhost:5000/products/1
 
 ###
-PATCH  http://localhost:5000/products/1
+POST http://localhost:5000/sales
+Content-Type: application/json
+
+{
+    "productId": 1,
+    "qty": 2,
+    "total": 40000
+}
+
+###
+POST http://localhost:5000/sales
+Content-Type: application/json
+
+{
+    "productId": 2,
+    "qty": 1,
+    "total": 25000
+}
+
+###
+GET http://localhost:5000/sales
+
+###
+PATCH  http://localhost:5000/products/2
 Content-Type: application/json
 
 {
